@@ -1,18 +1,19 @@
 {
-  "name": "my-app",
-  "version": "1.0.0",
-  "description": "A simple Node.js project",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "lint": "eslint ."
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
   },
-  "dependencies": {
-    "express": "^4.17.1"
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
   },
-  "devDependencies": {
-    "eslint": "^7.0.0"
-  },
-  "author": "Your Name",
-  "license": "MIT"
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"]
+  }
 }
+
