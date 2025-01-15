@@ -1,7 +1,14 @@
-// src/app.js
+// eslint.config.js
 
-function sayHello() {
-  console.log("Hello, world!");
-}
-
-sayHello();
+export default [
+  {
+    files: ["**/*.js"],
+    ignores: ["node_modules/**"],
+    rules: {
+      "semi": ["error", "always"],
+      "quotes": ["error", "double"],
+      "indent": ["error", 2],
+      "linebreak-style": ["error", "unix"]
+    }
+  }
+];
