@@ -1,3 +1,4 @@
+---
 name: Receive repository dispatch event
 
 on:
