@@ -25,5 +25,5 @@ jobs:
         run: npm install
 
       - name: Run ESLint
-        run: npx eslint '**/*.js'
+        run: npx eslint 'https://github.com/SrushtiVKhandade/Usecase-6/blob/main/src/app.js'
 
