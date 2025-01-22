@@ -13,6 +13,6 @@ jobs:
       - name: 'Checkout'
         uses: actions/checkout@v3
       - name: Event received
-        run: echo "Event received"
+        run: echo " New Event received"
       - name: 'Yamllint'
         uses: karancode/yamllint-github-action@master
