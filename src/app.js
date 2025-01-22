@@ -11,4 +11,4 @@ export default [
       "linebreak-style": ["error", "unix"]
     }
   }
-];
+]
