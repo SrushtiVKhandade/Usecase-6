@@ -15,4 +15,4 @@ jobs:
       - name: Event received
         run: echo " New Event received"
       - name: 'Yamllint'
-        uses: karancode/yamllint-github-action@master   
+        uses: karancode/yamllint-github-action@master
